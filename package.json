@@ -1,0 +1,21 @@
+{
+  "name": "initialization",
+  "version": "1.0.0",
+  "description": "Proyecto Node de Inicialización con el curso de Sergie Code",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "author": "jcarlosmariscal",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "env-var": "^7.4.1",
+    "express": "^4.19.1"
+  }
+}
